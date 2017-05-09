@@ -100,7 +100,7 @@ function islandora_scholar_get_view(AbstractObject $object) {
 
       $display['library_catalog_search'] = array(
         '#type' => 'item',
-        '#markup' => l(t('Search for this publication in your library discovery service'), "$search_url$search_params\"$search_term\""),
+        '#markup' => l(t('Search for this publication in the host\'s library system'), "$search_url$search_params\"$search_term\""),
         '#weight' => 0,
       );
     }
